@@ -55,6 +55,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 // Your solution here!
 
 ```
+let sentence = 'Hello world!';
+if (sentence.includes('Hello')) {
+    console.log('Sentence DOES contain the word "Hello"');
+    } else {
+      console.log('Sentence DOES NOT contain the word "Hello"');
+    }  
+
 
 ## Question 2: Get the specified item in the nested array
 
@@ -67,6 +74,11 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 ```
 // Your solution here!
 ```
+const array = [[1, [2, 3]]];
+const firstIndex = 0;
+const secondIndex = 1;
+const thirdIndex = = 0;
+console.log(array[firstIndex][secondindex][thirdIndex])
 
 ## Question 3: Log all numbers from 10 to 5
 
@@ -80,6 +92,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 ```
 // Your solution here!
 ```
+2. let currentNum = 10;
+    let min = 5
+1. while (currentNum > min) {
+    currentNum = currentNum - 1;
+    console.log(currentNum);
+}
+
 
 ## Question 4: Reverse the string to check for hidden messages
 
@@ -94,7 +113,16 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 ```
 // Your solution here!
 ```
+ const encodedMessage = 'gnidliub gruobuaF eht rednu deirub si erusaert ehT';
 
+const letterArray = encodedMessage.split('');
+ const reversedArray = letterArray.reverse();
+  const reversedString = reversedArray.join('');
+
+ if (reversedString.includes('treasure')) {
+   console.log('Your message:', reversedString)
+ }
+```
 ## Question 5: Add all the numbers from 10 to 0
 
 1. total = total + count;
@@ -108,6 +136,16 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 ```
 // Your solution here!
 ```
+let count = 10
+let total = 0
+while (count > 0) {
+    total = total + count
+        count = count-1
+}
+console.log
+
+
+
 
 ## Question 6: Check if the array includes a specific number
 
@@ -122,5 +160,4 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 9. }
 
 ```
-// Your solution here!
-```
+
